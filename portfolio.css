@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #efefef;
+}
+
+img {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0.5%, rgba(0, 0, 0, 0) 90%);
+    width: 100vw;
+
+}
+
+header nav {
+    font-family: 'spectral sc', serif;
+    text-align: right;
+    margin: 20px;
+    font-size: 1em;
+    font-weight: 100;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+
+
+
+}
+
+header nav a:hover {
+    color: white;
+}
+
+#splash {
+    background-image: url(img/portsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 62.5vw;
+}
+
+#splash h1 {
+    font-family: 'spectral sc', serif;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 20px 0 0 20px;
+
+
+}
+
+#splash h2 {
+    font-family: 'spectral sc', serif;
+    font-size: 1em;
+    padding: 0 0 0 20px;
+    font-weight: 100;
+
+
+}
+
+#splash h4 {
+    font-family: 'spectral sc', serif;
+    font-size: 0.8em;
+    padding: 0 0 0 20px;
+    font-weight: 100;
+
+
+}
+
+h3 {
+    font-family: 'spectral sc', serif;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 20px;
+
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+    margin: 20px;
+}
+
+a {
+    font-family: 'spectral sc', serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+a:hover {
+    color: white;
+}
+
+.link {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/******************* OM *******************/
+
+#om {
+    background-color: rgba(179, 255, 191, 0.1);
+
+}
+
+#om img {
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+#om .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
+
+#om .column_txt,
+.column_img {
+    flex-basis: 400px;
+    margin: 0 auto;
+
+}
+
+#om .column_txt {
+    background-color: rgba(255, 185, 255, 0.2);
+    border: solid black;
+    border-width: 1px;
+    margin-top: 20px
+}
+
+/******************* OM SLUT *******************/
+
+/******************* HTML *******************/
+
+#tema_1_html {
+    background-color: rgba(255, 185, 255, 0.1);
+
+}
+
+
+
+#tema_1_html img {
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+#tema_1_html .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
+
+#tema_1_html .column_txt,
+.column_img {
+    flex-basis: 400px;
+    margin: 0 auto;
+
+
+}
+
+#tema_1_html .column_txt {
+    background-color: rgba(179, 255, 191, 0.2);
+    border: solid black;
+    border-width: 1px;
+    margin-top: 20px
+}
+
+/******************* HTML SLUT *******************/
+
+/******************* VIDEO *******************/
+
+#tema_3_video {
+    background-color: rgba(179, 255, 191, 0.1);
+
+}
+
+#tema_3_video .column_pilot {
+    flex-basis: 400px;
+    margin: 0 auto;
+    border: solid black;
+    border-width: 1px;
+    margin-top: 20px;
+
+
+}
+
+#tema_3_video .column_content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+#tema_3_video .pilot_video {
+    flex-basis: 400px;
+    align-self: flex-end;
+}
+
+#tema_3_video .column_dox {
+    flex-basis: 400px;
+    margin: 0 auto;
+
+}
+
+#tema_3_video .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+
+/******************* VIDEO SLUT *******************/
+
+/******************* ANIMATION *******************/
+
+#tema_2_animation {
+    background-color: rgba(255, 185, 255, 0.1);
+
+}
+
+#tema_2_animation .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
+
+#tema_2_animation .column_txt {
+    background-color: rgba(179, 255, 191, 0.2);
+    border: solid black;
+    border-width: 1px;
+    margin: 20px auto 0 auto;
+    flex-basis: 400px;
+
+}
+
+#tema_2_animation .column_txt .link {
+    padding-bottom: 0;
+}
+
+#tema_2_animation .column_img {
+    flex-basis: 400px;
+    margin: 0 auto;
+
+
+}
+
+#tema_2_animation img {
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+
+
+#tema_2_animation .column_content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgba(179, 255, 191, 0.2);
+    border: solid black;
+    border-width: 1px;
+
+
+}
+
+#tema_2_animation .img_ond {
+    align-self: center;
+
+}
+
+#tema_2_animation .column_img_ond {
+    flex-basis: 400px;
+    margin: 20px auto 0 auto;
+}
+
+#tema_2_animation .img_pige {
+    border: solid black;
+    border-width: 1px;
+}
+
+#tema_2_animation .column_content_flow {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: #ffffff;
+
+    border-width: 1px;
+
+}
+
+#tema_2_animation .column_img_flow {
+    flex-basis: 400px;
+    margin: 20px auto 0 auto;
+}
+
+/******************* ANIMATION SLUT *******************/
+
+/******************* UX *******************/
+
+#tema_4_ux {
+    background-color: rgba(179, 255, 191, 0.1);
+
+}
+
+/******************* UX SLUT *******************/
+
+footer {
+    padding-top: 20vw;
+    background-color: rgba(255, 185, 255, 0.1);
+    text-align: center;
+    font-family: 'spectral sc', serif;
+}
