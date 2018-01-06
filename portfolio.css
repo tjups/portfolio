@@ -323,12 +323,54 @@ a:hover {
     margin: 20px auto 0 auto;
 }
 
+#tema_2_animation .column_img_kylling_ked {
+    flex-basis: 400px;
+    margin: 0 auto;
+
+}
+
+#tema_2_animation .column_img_kylling_ked img {
+    max-width: 263px;
+}
+
+#tema_2_animation .column_content_kylling_ked {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 /******************* ANIMATION SLUT *******************/
 
 /******************* UX *******************/
 
 #tema_4_ux {
     background-color: rgba(179, 255, 191, 0.1);
+
+}
+
+#tema_4_ux .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
+
+#tema_4_ux .column_txt {
+    background-color: rgba(255, 185, 255, 0.2);
+    border: solid black;
+    border-width: 1px;
+    margin: 20px auto 0 auto;
+    flex-basis: 400px;
+
+}
+
+#tema_4_ux .column_img {
+    flex-basis: 400px;
+    margin: 20px auto 0 auto;
+
 
 }
 
